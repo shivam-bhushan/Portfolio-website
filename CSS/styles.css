@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  color: #5e6472;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'poppins', sans-serif;
+  font-size: 400%;
+  font-weight: 500;
+  margin: 70px auto 0 auto;
+  /* line-height: 2; */
+}
+
+h2 {
+  /* font-weight: normal; */
+  margin: 0 auto 0 auto;
+  margin-top: 50px;
+
+}
+
+h3{
+  font-weight: 600;
+  font-size: 170%;
+}
+
+p {
+  font-size: 120%
+}
+
+hr {
+  border: dotted #5e6472 10px;
+  border-bottom: none;
+  width: 2%;
+  margin: auto;
+  
+}
+
+a {
+  color: #fbfaff;
+}
+
+.top {
+  background-color: #fbfaff;
+  position: relative;
+  height: 100%;
+  /* padding-top: 100px; */
+  padding-bottom: 70px;
+}
+
+.resume {
+  float: right;
+  background-image: linear-gradient(to bottom right,#8f86f6, #4d55f0);
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 35px;
+  margin-right: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 50px;
+  float: left;
+}
+
+.skills {
+  padding: 30px 300px 50px 300px;
+  margin: auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+
+.container {
+  height: 80px;
+  margin: 0;
+  padding-bottom: 30px;
+  /* display: inline-block; */
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+}
+
+/* .bottom {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+} */
+
+.name {
+  padding-bottom: 5px;
+}
+
+.coder {
+  width: 30%;
+}
+
+.self-photo {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.contact-me{
+  padding: 10px;
+  margin: 20px;
+}
+
+.btn{
+  background-image: linear-gradient(to bottom right,#8f86f6, #4d55f0);
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.bottom-container{
+  margin-top: 100px;
+  background-color:#5e6472;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+.footer-link{
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-link:hover{
+  color:#8f86f6;
+}
